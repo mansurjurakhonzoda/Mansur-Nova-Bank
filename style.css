@@ -13,6 +13,7 @@ header {
   background-color: #a0d1bc66;
   position: fixed;
   top: 0;
+  z-index: 100;
   border-bottom: 1px solid #ffe088;
   display: flex;
   align-items: center;
@@ -25,11 +26,12 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.brend span {
+.brend a {
   font-size: 48px;
   font-weight: 700;
   color: #ffe088;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .sslki {
   width: 76%;
@@ -89,4 +91,68 @@ header {
   font-size: 12px;
   font-weight: 700;
   border: none;
+}
+main section:nth-child(1) {
+  width: 100%;
+  height: 592px;
+  position: relative;
+  overflow: hidden;
+  background-image: url("./images/bank.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.money {
+  width: 64%;
+  height: 230px;
+  padding: 0px 32px;
+  position: absolute;
+  z-index: 1;
+  left: 15%;
+  top: 195px;
+}
+h1 {
+  font-size: 48px;
+  color: #ffe088;
+  margin-bottom: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.money p {
+  font-size: 22px;
+  color: #e2e2e2e6;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.open {
+  width: 185px;
+  padding: 16px 40px;
+  background-color: #ffe088;
+  border-radius: 10px;
+  border: none;
+  color: #241a00;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 210px;
+  letter-spacing: 1px;
+}
+.open:hover {
+  box-shadow:
+    5px 5px 15px #f2d37d,
+    -5px -5px 15px #f2d37d;
+}
+.uznat {
+  width: 197px;
+  padding: 16px 40px;
+  background-color: #0b3d2eb3;
+  border-radius: 10px;
+  border: 1px solid #ffe088;
+  color: #e2e2e2;
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+.uznat:hover {
+  background-color: #191616ba;
 }
