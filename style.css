@@ -156,3 +156,74 @@ h1 {
 .uznat:hover {
   background-color: #191616ba;
 }
+main section:nth-child(2) {
+  width: 94.5%;
+  height: 244px;
+  padding: 64px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.o_nas {
+  width: 47%;
+  height: 244px;
+}
+.o_nas span {
+  font-size: 12px;
+  color: #ffe088;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+.o_nas h2 {
+  font-size: 32px;
+  color: #e2e2e2;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+.o_nas p {
+  font-size: 18px;
+  color: #c0c8c3;
+  letter-spacing: 1px;
+}
+.obsluzhivanie {
+  width: 47%;
+  height: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info:nth-child(1) {
+  width: 40%;
+  height: 66px;
+  padding: 24px;
+  border-radius: 15px;
+  background-color: #0b3d2eb3;
+  border: 1px solid #ffe088;
+}
+.info p:nth-child(1) {
+  height: 52px;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffe088;
+  text-align: center;
+}
+.info p:nth-child(2) {
+  font-size: 12px;
+  color: #e2e2e2;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.info:nth-child(2) {
+  width: 40%;
+  height: 66px;
+  padding: 24px;
+  border-radius: 15px;
+  background-color: #0b3d2eb3;
+  border: 1px solid #093628b3;
+}
+.info:nth-child(2) p:nth-child(1) {
+  color: #a0d1bc;
+}
