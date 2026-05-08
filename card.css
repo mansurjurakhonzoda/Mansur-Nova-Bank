@@ -94,3 +94,23 @@ header {
   font-weight: 700;
   border: none;
 }
+main {
+  padding: 128px 32px 64px;
+}
+main section:nth-child(1) {
+  width: 100%;
+  height: 155px;
+  margin-bottom: 64px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffe088;
+  margin-bottom: 16px;
+}
+section:nth-child(1) p {
+  width: 576px;
+  font-size: 18px;
+  color: #c0c8c3;
+  line-height: 150%;
+}
