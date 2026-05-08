@@ -47,6 +47,8 @@ header {
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: none;
 }
 .sslki a:hover {
   background-color: #ffffff0d;
@@ -226,4 +228,192 @@ main section:nth-child(2) {
 }
 .info:nth-child(2) p:nth-child(1) {
   color: #a0d1bc;
+}
+main section:nth-child(3) {
+  width: 94.5%;
+  height: 821px;
+  padding: 64px 32px;
+}
+section:nth-child(3) h2 {
+  font-size: 32px;
+  color: #e2e2e2;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.grid {
+  width: 100%;
+  height: 734px;
+  display: grid;
+  grid-template-columns: repeat(12, 80px);
+  grid-template-rows: 420px 291px;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.card {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  background-color: #0b3d2eb3;
+  border-radius: 20px;
+  border: 1px solid #093628b3;
+  padding: 40px;
+}
+.card:hover {
+  box-shadow:
+    10px 10px 10px #2d2d2d78,
+    -10px -10px 10px #2d2d2d78;
+}
+.premial {
+  width: 100%;
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.premia {
+  width: 45%;
+  height: 82px;
+}
+.premia h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffe088;
+  margin: 0;
+}
+.premia p {
+  font-size: 16px;
+  color: #c0c8c3;
+  line-height: 150%;
+}
+.premial svg {
+  width: 36px;
+  height: 40px;
+  color: #ffe088;
+}
+.card .img {
+  width: 100%;
+  height: 192px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+  height: 192px;
+}
+.card img:hover {
+  transform: scale(1.09);
+  transition: all 1s ease 10ms;
+}
+.credit {
+  grid-column-start: 9;
+  grid-column-end: 14;
+  background-color: #0b3d2eb3;
+  border-radius: 20px;
+  border: 1px solid #ffe088;
+  padding: 40px;
+}
+.credit svg {
+  width: 36px;
+  height: 40px;
+  margin-bottom: 24px;
+}
+.kredit {
+  width: 302px;
+  height: 90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.two {
+  color: #e2e2e2;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+.kredit p {
+  font-size: 16px;
+  color: #c0c8c3;
+  line-height: 150%;
+}
+.credit button {
+  border: none;
+  font-size: 12px;
+  color: #ffe088;
+  font-weight: 700;
+  margin-top: 60px;
+  letter-spacing: 2px;
+  background-color: inherit;
+}
+.ipoteka {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  padding: 40px;
+  background-color: #0b3d2eb3;
+  border-radius: 20px;
+  border: 1px solid #093628b3;
+}
+.ipoteka svg {
+  width: 36px;
+  height: 40px;
+  color: #a0d1bc;
+  margin-bottom: 24px;
+}
+.three {
+  margin: 0;
+}
+.ipoteka button {
+  border: none;
+  font-size: 12px;
+  color: #a0d1bc;
+  font-weight: 700;
+  margin-top: 32px;
+  letter-spacing: 2px;
+  background-color: inherit;
+}
+.busines {
+  grid-column-start: 5;
+  grid-column-end: 14;
+  padding: 40px;
+  background-color: #0b3d2eb3;
+  border-radius: 20px;
+  border: 1px solid #093628b3;
+  overflow: hidden;
+  position: relative;
+}
+.busines img {
+  width: 395px;
+  height: 291px;
+  position: absolute;
+  z-index: 1;
+  left: 422px;
+  top: -1px;
+}
+.busines .for {
+  width: 711px;
+  height: 183px;
+  position: absolute;
+  z-index: 2;
+}
+.for h3 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffe088;
+  margin-bottom: 8px;
+}
+.for p {
+  width: 360px;
+  font-size: 16px;
+  color: #c0c8c3;
+  line-height: 150%;
+}
+.for button {
+  width: 176px;
+  height: 36px;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 10px;
+  background-color: #ffe088;
+  font-size: 12px;
+  color: #241a00;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 32px;
 }
