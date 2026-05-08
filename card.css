@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+body {
+  background-color: #000;
+}
+header {
+  width: 95%;
+  height: 53px;
+  padding: 16px 32px;
+  background-color: #a0d1bc66;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #ffe088;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brend {
+  width: 51%;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brend a {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffe088;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.sslki {
+  width: 80%;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sslki a {
+  padding: 8px;
+  border-radius: 5px;
+  color: #e2e2e2b3;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+.sslki a:hover {
+  background-color: #ffffff0d;
+  color: #e2e2e2;
+}
+.sslki a:nth-child(1) {
+  color: #ffe088;
+  border-bottom: 1px solid #ffe088;
+}
+.icons {
+  width: 16%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons svg {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  border-radius: 50%;
+  color: #bcedd7;
+}
+.icons svg:hover {
+  background-color: #ffffff0d;
+}
+.icons span {
+  font-size: 12px;
+  color: #e2e2e2b3;
+  font-weight: 700;
+}
+.icons span:hover {
+  color: #e2e2e2;
+}
+.icons button {
+  width: 92px;
+  height: 28px;
+  padding: 7px 24px;
+  border-radius: 20px;
+  background-color: #ffe088;
+  color: #241a00;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+}
