@@ -131,3 +131,114 @@ section:nth-child(1) p {
   transform: scale(1.09);
   transition: all 1s ease 10ms;
 }
+main section:nth-child(2) {
+  width: 95%;
+  height: 567px;
+  padding: 64px 32px;
+}
+.one {
+  width: 100%;
+  height: 414px;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  grid-template-rows: repeat(2, 195px);
+  justify-content: space-between;
+  align-content: space-between;
+}
+.mission {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 117px 48px;
+  border-radius: 20px;
+  background-color: #0b3d2e66;
+  border-top: 1px solid #ffe088;
+  border-left: 1px solid #ffe088;
+}
+.mission span {
+  font-size: 12px;
+  color: #ffe088;
+  margin-bottom: 16px;
+  letter-spacing: 2px;
+}
+.mission h2 {
+  font-size: 32px;
+  color: #e2e2e2;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+.mission p {
+  font-size: 16px;
+  color: #c0c8c3;
+}
+.safety {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 32px;
+  border-radius: 20px;
+  background-color: #0b3d2e66;
+  border-top: 1px solid #ffe088;
+  border-left: 1px solid #ffe088;
+}
+.safety svg {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 16px;
+}
+.safety h3 {
+  font-size: 24px;
+  color: #e2e2e2;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.safety p {
+  font-size: 16px;
+  color: #c0c8c3;
+}
+.technologi {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.two {
+  width: 100%;
+  height: 129px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.element {
+  width: 44%;
+  height: 65px;
+  padding: 32px;
+  border-radius: 20px;
+  background-color: #0b3d2e66;
+  border-top: 1px solid #ffe088;
+  border-left: 1px solid #ffe088;
+  display: flex;
+  align-items: center;
+}
+.element svg {
+  width: 30px;
+  height: 36px;
+  padding: 12px 17px;
+  background-color: #0b3d2e;
+  border-radius: 10px;
+  color: #a0d1bc;
+  margin-right: 30px;
+}
+.text {
+  width: 377px;
+  height: 56px;
+}
+.text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #e2e2e2;
+}
+.text p {
+  font-size: 16px;
+  color: #c0c8c3;
+}
