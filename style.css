@@ -417,3 +417,41 @@ section:nth-child(3) h2 {
   letter-spacing: 1px;
   margin-top: 32px;
 }
+main section:nth-child(4) {
+  width: 65%;
+  height: 362px;
+  padding: 64px 32px;
+  margin: auto;
+}
+section:nth-child(4) h2 {
+  font-size: 32px;
+  color: #e2e2e2;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.value {
+  width: 784px;
+  height: 44px;
+  padding: 24px;
+  background-color: #0b3d2eb3;
+  border-radius: 10px;
+  border: 1px solid #093628b3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.value:hover {
+  background-color: #ffffff0d;
+}
+.value span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #e2e2e2;
+}
+.value p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffe088;
+}
